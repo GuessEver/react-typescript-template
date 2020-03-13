@@ -65,6 +65,9 @@
   "lint-staged": {
     "src/**/*.{ts,tsx}": "eslint --fix"
   },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
